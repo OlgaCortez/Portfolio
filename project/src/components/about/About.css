@@ -1,0 +1,42 @@
+@import "../../style/mainColors.css";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=IBM+Plex+Mono:wght@100&display=swap');
+
+.about-me {
+    height: 100vh;
+}
+.about-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.about {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 6em;
+    font-weight: bold;
+    color: var(--white);
+}
+.the {
+    margin-top: 1%;
+    margin-left: 1%;
+    font-size: 6em;
+    font-weight: bold;
+    color: var(--pink);
+}
+.about-title-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.dev {
+    font-size: 6em;
+    font-weight: bold;
+    color: var(--aqua);
+    margin-top: -1.5%;
+    margin-left: 4%;
+}
+.about-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

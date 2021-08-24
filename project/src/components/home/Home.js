@@ -15,6 +15,8 @@ const Home = () => {
             <div className="scroll">
                 <p>Scroll</p>
             </div>
+            <div>
+            </div>
         </div>
      );
 }
