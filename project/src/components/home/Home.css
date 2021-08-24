@@ -1,14 +1,14 @@
 @import "../../style/mainColors.css";
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=IBM+Plex+Mono:wght@100&display=swap');
-/* font-family: 'Amatic SC', cursive; */
-/* font-family: 'IBM Plex Mono', monospace; */
 
+.home-page {
+    height: 100vh;
+}
 .full_name {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
 p {
     color: var(--aqua);
     font-family: 'Amatic SC', cursive;
@@ -42,7 +42,7 @@ p {
      color: var(--pink);
      font-weight: bold;
      font-size: 1.5em;
-     margin-top: 12%;
+     margin-top: 10%;
      text-decoration: underline double var(--aqua);
  }
 
