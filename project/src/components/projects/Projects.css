@@ -1,0 +1,56 @@
+@import "../../style/mainColors.css";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=IBM+Plex+Mono:wght@100&display=swap');
+
+.project-page {
+    height: 100vh;
+}
+.firstLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.projects {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 6em;
+    font-weight: bold;
+    color: var(--pink);
+}
+.of {
+    margin-top: 1%;
+    margin-left: 0.5%;
+    font-size: 6em;
+    font-weight: bold;
+    color: var(--white);
+}
+.proj-the {
+    margin-top: 1%;
+    margin-left: 0.5%;
+    font-size: 6em;
+    font-weight: bold;
+    color: var(--magenta)
+}
+.lastLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.lastLine p {
+    font-size: 6em;
+    font-weight: bold;
+    color: var(--aqua);
+    margin-top: -1.5%;
+    margin-left: 11%;
+}
+.project-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-images a img {
+    width: 400px;
+}
+.project-images img {
+    width: 400px;
+}
