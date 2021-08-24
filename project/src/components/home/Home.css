@@ -1,0 +1,48 @@
+@import "../../style/mainColors.css";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=IBM+Plex+Mono:wght@100&display=swap');
+/* font-family: 'Amatic SC', cursive; */
+/* font-family: 'IBM Plex Mono', monospace; */
+
+.full_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p {
+    color: var(--aqua);
+    font-family: 'Amatic SC', cursive;
+}
+.full_name .firstName {
+    margin-top: 15%;
+    font-size: 6em;
+    font-weight: bold;
+}
+.full_name .last_name {
+    margin-top: 15%;
+    font-size: 6em;
+    font-weight: bold;
+}
+.port {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.portfolio {
+    margin-top: -2%;
+    font-size: 6em;
+    font-weight: bold;
+}
+.scroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .scroll p {
+     color: var(--pink);
+     font-weight: bold;
+     font-size: 1.5em;
+     margin-top: 12%;
+     text-decoration: underline double var(--aqua);
+ }
+
