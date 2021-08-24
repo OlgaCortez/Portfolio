@@ -1,0 +1,36 @@
+@import "../../style/mainColors.css";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=IBM+Plex+Mono:wght@100&display=swap');
+
+.skills-page {
+    height: 100vh;
+}
+.dev-skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.dev-skill p {
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 6em;
+    font-weight: bold;
+    color: var(--aqua); 
+}
+.skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.skill p {
+    font-size: 6em;
+    font-weight: bold;
+    color: var(--white);
+    margin-top: -1.5%;
+    margin-left: 10%;
+}
+.skill-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
