@@ -20,6 +20,12 @@ const Projects = () => {
                 <img src={Circle} alt="half circle" />
                 <img src={Circle} alt="half circle" />
             </div>
+            <div className="project-names">
+                <p>Mock Portfolio</p>
+                <p>Crypto Tracker</p>
+                <p>Coming Soon!</p>
+                <p>Coming Soon!</p>
+            </div>
         </div>
      );
 }
