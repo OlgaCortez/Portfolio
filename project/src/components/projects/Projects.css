@@ -45,12 +45,22 @@
 .project-images {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .project-images a img {
     width: 400px;
 }
 .project-images img {
     width: 400px;
+}
+.project-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.project-names p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: var(--white);
+    font-size: 1.5em;
+    margin-top: -6%;
 }
