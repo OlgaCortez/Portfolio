@@ -5,7 +5,7 @@ import Crypto from "../../images/Crypto.png";
 
 const Projects = () => {
     return ( 
-        <div className="project-page">
+        <div className="project-page" id="project">
             <div className="firstLine">
                 <p className="projects">Projects</p>
                 <p className="of">Of</p>
