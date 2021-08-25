@@ -6,7 +6,7 @@ import midSkill from "../../images/Skills_Pic.png";
 
 const Skills = () => {
     return ( 
-        <div className="skills-page">
+        <div className="skills-page" id="skills">
             <div className="dev-skill">
                 <p>Developer</p>
             </div>

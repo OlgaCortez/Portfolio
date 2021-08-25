@@ -1,0 +1,18 @@
+@import "../../style/mainColors.css";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=IBM+Plex+Mono:wght@100&display=swap');
+
+.navBar ul {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-around;
+    background-color: var(--black);
+}
+.navBar ul li {
+    color: var(--white);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+}
