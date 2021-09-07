@@ -1,5 +1,6 @@
 import Logo from "../../images/homeLogo.png";
 import "./Home.css";
+import Player from "../player/Player";
 
 const Home = () => {
     return ( 
@@ -12,11 +13,7 @@ const Home = () => {
             <div className="port">
                 <p className="portfolio">Portfolio</p>
             </div>
-            {/* <div className="scroll">
-                <p>Scroll</p>
-            </div> */}
-            <div>
-            </div>
+            <Player />
         </div>
      );
 }
