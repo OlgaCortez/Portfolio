@@ -61,6 +61,9 @@
     .about-pics img {
         width: 250px;
     }
+    .about-pics video {
+        width: 250px;
+    }
 }
 /* Mobile Media Breakpoint */
 @media screen and (max-width: 767px) {
@@ -84,6 +87,9 @@
         width: 50%;
     }
     .about-pics img {
+        width: 200px;
+    }
+    .about-pics video {
         width: 200px;
     }
 }

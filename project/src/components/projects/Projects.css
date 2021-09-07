@@ -94,6 +94,13 @@
     .project-images img {
         width: 200px;
     }
+    .project-images img {
+        transform: scale(0.8);
+        transition: 0.5s;
+    }
+    .project-images img:hover {
+        transform: scale(2) rotate(360deg);
+    }
     .project-names {
         justify-content: space-around;
     }
