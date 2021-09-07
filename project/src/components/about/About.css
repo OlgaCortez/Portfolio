@@ -40,3 +40,50 @@
     flex-direction: row;
     justify-content: center;
 }
+/* Tablet Media Breakpoint */
+@media(min-width: 768px) and (max-width: 1023px) {
+    .about-me {
+        height: 70vh;
+    }
+    .about {
+        font-size: 3em;
+    }
+    .the {
+        font-size: 3em;
+    }
+    .dev {
+        font-size: 3em;
+    }
+    .about-pics {
+        justify-content: center;
+        margin-top: 10%;
+    }
+    .about-pics img {
+        width: 250px;
+    }
+}
+/* Mobile Media Breakpoint */
+@media screen and (max-width: 767px) {
+    .about-me {
+        height: 100vh;
+    }
+    .about {
+        font-size: 2em;
+        margin-top: 4%;
+    }
+    .the {
+        font-size: 2em;
+        margin-top: 4%;
+    }
+    .dev {
+        font-size: 2em;
+    }
+    .about-pics {
+        flex-direction: column;
+        margin: auto;
+        width: 50%;
+    }
+    .about-pics img {
+        width: 200px;
+    }
+}
