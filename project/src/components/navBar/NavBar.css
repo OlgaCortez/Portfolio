@@ -16,13 +16,15 @@
     font-weight: bold;
     font-family: 'Amatic SC', cursive;
 }
+.navBar ul li:hover {
+    color: var(--aqua);
+}
 /* Tablet Media Breakpoint */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .navBar ul li {
        font-size: 1em; 
     }
 }
-
 /* Mobile Media Breakpoint */
 @media screen and (max-width: 767px) {
     .navBar ul {

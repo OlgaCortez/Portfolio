@@ -65,18 +65,21 @@
     margin-top: -6%;
 }
 /*Tablet Media Breakpoint */
-@media(min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .project-page {
-        height: 70vh;
+        height: 100vh;
     }
     .projects {
         font-size: 2em;
+        margin-top: 2%;
     }
     .of {
         font-size: 2em;
+        margin-top: 2%;
     }
     .proj-the {
         font-size: 2em;
+        margin-top: 2%;
     }
     .lastLine p {
         font-size: 3em;
