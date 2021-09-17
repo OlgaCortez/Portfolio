@@ -21,6 +21,9 @@
 }
 /* Tablet Media Breakpoint */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .navBar ul {
+        justify-content: space-evenly;
+    }
     .navBar ul li {
        font-size: 1em; 
     }

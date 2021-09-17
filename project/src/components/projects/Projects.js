@@ -1,7 +1,7 @@
 import "./Projects.css";
 import Circle from "../../images/Project_Circle.png";
 import Girl from "../../images/Girl.png";
-import Crypto from "../../images/Crypto.png";
+import Chat from "../../images/chatApp.png";
 
 const Projects = () => {
     return ( 
@@ -16,13 +16,13 @@ const Projects = () => {
             </div>
             <div className="project-images">
                 <a href="https://olgacortez.github.io/glassmorphism-practice.github.io/" target="_blank" rel="noopener noreferrer"><img src={Girl} alt="Animated Girl" /></a>
-                <a href="https://cryptotracker-dark-mode.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={Crypto} alt="Crypto Pic" /></a>
+                <a href="https://oc-react-chat-app.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={Chat} alt="Chat App" /></a>
                 <img src={Circle} alt="half circle" />
                 <img src={Circle} alt="half circle" />
             </div>
             <div className="project-names">
                 <p>Mock Portfolio</p>
-                <p>Crypto Tracker</p>
+                <p>Chat App</p>
                 <p>Coming Soon!</p>
                 <p>Coming Soon!</p>
             </div>
