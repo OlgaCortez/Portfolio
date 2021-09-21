@@ -3,6 +3,7 @@
 
 .project-page {
     height: 100vh;
+    overflow: auto;
 }
 .firstLine {
     display: flex;

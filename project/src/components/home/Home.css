@@ -4,6 +4,7 @@
 
 .home-page {
     height: 100vh;
+    overflow: auto;
 }
 .full_name {
     display: flex;

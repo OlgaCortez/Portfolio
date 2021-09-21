@@ -3,6 +3,7 @@
 
 .skills-page {
     height: 100vh;
+    overflow: auto;
 }
 .dev-skill {
     display: flex;

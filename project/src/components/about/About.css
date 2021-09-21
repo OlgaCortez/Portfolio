@@ -3,6 +3,7 @@
 
 .about-me {
     height: 100vh;
+    overflow: auto;
 }
 .about-title {
     display: flex;
