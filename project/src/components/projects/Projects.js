@@ -1,7 +1,8 @@
 import "./Projects.css";
 import Circle from "../../images/Project_Circle.png";
 import Girl from "../../images/Girl.png";
-import Chat from "../../images/chatApp.png";
+import Chat from "../../images/chat.png";
+import Cities from "../../images/cities.png";
 
 const Projects = () => {
     return ( 
@@ -17,13 +18,13 @@ const Projects = () => {
             <div className="project-images">
                 <a href="https://olgacortez.github.io/glassmorphism-practice.github.io/" target="_blank" rel="noopener noreferrer"><img src={Girl} alt="Animated Girl" /></a>
                 <a href="https://oc-react-chat-app.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={Chat} alt="Chat App" /></a>
-                <img src={Circle} alt="half circle" />
+                <a href="https://olgacortez.github.io/parallax-website/" target="_blank" rel="noopener noreferrer"><img src={Cities} alt="Chat App" /></a>
                 <img src={Circle} alt="half circle" />
             </div>
             <div className="project-names">
                 <p>Mock Portfolio</p>
                 <p>Chat App</p>
-                <p>Coming Soon!</p>
+                <p>Parallax Scroll</p>
                 <p>Coming Soon!</p>
             </div>
         </div>
