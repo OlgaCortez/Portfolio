@@ -1,6 +1,7 @@
 @import "../../style/mainColors.css";
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=IBM+Plex+Mono:wght@100&display=swap');
 
+
 .home-page {
     height: 100vh;
 }
@@ -9,6 +10,7 @@
     flex-direction: row;
     justify-content: center;
     margin: auto;
+    padding: 3em 2em 3em 2em;
 }
 p {
     color: var(--aqua);
@@ -28,6 +30,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 3em 2em 3em 2em;
 }
 .portfolio {
     margin-top: -2%;
@@ -36,9 +39,6 @@ p {
 }
 /* Tablet Media Breakpoint */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .home-page {
-        height: 100vh;
-    }
     .full_name {
         justify-content: center;
     }
@@ -61,13 +61,9 @@ p {
 
 /*Mobile Media Breakpoint*/
 @media screen and (max-width: 767px){
-    .home-page {
-        height: 100vh;
-    }
     .full_name {
         justify-content: center;
         width: 50%;
-        padding: 70px;
     }
     .full_name img {
         width: 200px;
