@@ -1,6 +1,6 @@
 import "./Projects.css";
 import Circle from "../../images/Project_Circle.png";
-import Girl from "../../images/Girl.png";
+import Weather from "../../images/weather.png";
 import Chat from "../../images/chat.png";
 import Cities from "../../images/cities.png";
 
@@ -16,15 +16,15 @@ const Projects = () => {
                 <p>Developer</p>
             </div>
             <div className="project-images">
-                <a href="https://olgacortez.github.io/glassmorphism-practice.github.io/" target="_blank" rel="noopener noreferrer"><img src={Girl} alt="Animated Girl" /></a>
-                <a href="https://oc-react-chat-app.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={Chat} alt="Chat App" /></a>
-                <a href="https://olgacortez.github.io/parallax-website/" target="_blank" rel="noopener noreferrer"><img src={Cities} alt="Chat App" /></a>
+                <a href="https://oc-weather-app.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={Weather} alt="Weather Icon" /></a>
+                <a href="https://oc-react-chat-app.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={Chat} alt="Chat Icon" /></a>
+                <a href="https://olgacortez.github.io/parallax-website/" target="_blank" rel="noopener noreferrer"><img src={Cities} alt="City Icon" /></a>
                 <img src={Circle} alt="half circle" />
             </div>
             <div className="project-names">
-                <p>Mock Portfolio</p>
-                <p>Chat App</p>
-                <p>Parallax Scroll</p>
+                <p>React Weather App</p>
+                <p>React Chat App</p>
+                <p>Parallax Scroll App</p>
                 <p>Coming Soon!</p>
             </div>
         </div>
